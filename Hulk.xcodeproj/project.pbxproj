@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEC4731F1C9C646600A952BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC4731E1C9C646600A952BE /* AppDelegate.swift */; };
+		DEC473211C9C646600A952BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC473201C9C646600A952BE /* ViewController.swift */; };
+		DEC473241C9C646600A952BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC473221C9C646600A952BE /* Main.storyboard */; };
+		DEC473261C9C646600A952BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEC473251C9C646600A952BE /* Assets.xcassets */; };
+		DEC473291C9C646600A952BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC473271C9C646600A952BE /* LaunchScreen.storyboard */; };
+		DEC473341C9C646600A952BE /* HulkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC473331C9C646600A952BE /* HulkTests.swift */; };
+		DEC4733F1C9C646600A952BE /* HulkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC4733E1C9C646600A952BE /* HulkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEC473301C9C646600A952BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEC473131C9C646600A952BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEC4731A1C9C646600A952BE;
+			remoteInfo = Hulk;
+		};
+		DEC4733B1C9C646600A952BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEC473131C9C646600A952BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEC4731A1C9C646600A952BE;
+			remoteInfo = Hulk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEC4731B1C9C646600A952BE /* Hulk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hulk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC4731E1C9C646600A952BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEC473201C9C646600A952BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEC473231C9C646600A952BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEC473251C9C646600A952BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEC473281C9C646600A952BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEC4732A1C9C646600A952BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC4732F1C9C646600A952BE /* HulkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HulkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC473331C9C646600A952BE /* HulkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HulkTests.swift; sourceTree = "<group>"; };
+		DEC473351C9C646600A952BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC4733A1C9C646600A952BE /* HulkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HulkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC4733E1C9C646600A952BE /* HulkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HulkUITests.swift; sourceTree = "<group>"; };
+		DEC473401C9C646600A952BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEC473181C9C646600A952BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC4732C1C9C646600A952BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC473371C9C646600A952BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEC473121C9C646600A952BE = {
+			isa = PBXGroup;
+			children = (
+				DEC4731D1C9C646600A952BE /* Hulk */,
+				DEC473321C9C646600A952BE /* HulkTests */,
+				DEC4733D1C9C646600A952BE /* HulkUITests */,
+				DEC4731C1C9C646600A952BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEC4731C1C9C646600A952BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEC4731B1C9C646600A952BE /* Hulk.app */,
+				DEC4732F1C9C646600A952BE /* HulkTests.xctest */,
+				DEC4733A1C9C646600A952BE /* HulkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEC4731D1C9C646600A952BE /* Hulk */ = {
+			isa = PBXGroup;
+			children = (
+				DEC4731E1C9C646600A952BE /* AppDelegate.swift */,
+				DEC473201C9C646600A952BE /* ViewController.swift */,
+				DEC473221C9C646600A952BE /* Main.storyboard */,
+				DEC473251C9C646600A952BE /* Assets.xcassets */,
+				DEC473271C9C646600A952BE /* LaunchScreen.storyboard */,
+				DEC4732A1C9C646600A952BE /* Info.plist */,
+			);
+			path = Hulk;
+			sourceTree = "<group>";
+		};
+		DEC473321C9C646600A952BE /* HulkTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEC473331C9C646600A952BE /* HulkTests.swift */,
+				DEC473351C9C646600A952BE /* Info.plist */,
+			);
+			path = HulkTests;
+			sourceTree = "<group>";
+		};
+		DEC4733D1C9C646600A952BE /* HulkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEC4733E1C9C646600A952BE /* HulkUITests.swift */,
+				DEC473401C9C646600A952BE /* Info.plist */,
+			);
+			path = HulkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEC4731A1C9C646600A952BE /* Hulk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC473431C9C646600A952BE /* Build configuration list for PBXNativeTarget "Hulk" */;
+			buildPhases = (
+				DEC473171C9C646600A952BE /* Sources */,
+				DEC473181C9C646600A952BE /* Frameworks */,
+				DEC473191C9C646600A952BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hulk;
+			productName = Hulk;
+			productReference = DEC4731B1C9C646600A952BE /* Hulk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEC4732E1C9C646600A952BE /* HulkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC473461C9C646600A952BE /* Build configuration list for PBXNativeTarget "HulkTests" */;
+			buildPhases = (
+				DEC4732B1C9C646600A952BE /* Sources */,
+				DEC4732C1C9C646600A952BE /* Frameworks */,
+				DEC4732D1C9C646600A952BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEC473311C9C646600A952BE /* PBXTargetDependency */,
+			);
+			name = HulkTests;
+			productName = HulkTests;
+			productReference = DEC4732F1C9C646600A952BE /* HulkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEC473391C9C646600A952BE /* HulkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC473491C9C646600A952BE /* Build configuration list for PBXNativeTarget "HulkUITests" */;
+			buildPhases = (
+				DEC473361C9C646600A952BE /* Sources */,
+				DEC473371C9C646600A952BE /* Frameworks */,
+				DEC473381C9C646600A952BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEC4733C1C9C646600A952BE /* PBXTargetDependency */,
+			);
+			name = HulkUITests;
+			productName = HulkUITests;
+			productReference = DEC4733A1C9C646600A952BE /* HulkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEC473131C9C646600A952BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Divit Mittal";
+				TargetAttributes = {
+					DEC4731A1C9C646600A952BE = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = DHV2D57HU9;
+					};
+					DEC4732E1C9C646600A952BE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DEC4731A1C9C646600A952BE;
+					};
+					DEC473391C9C646600A952BE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DEC4731A1C9C646600A952BE;
+					};
+				};
+			};
+			buildConfigurationList = DEC473161C9C646600A952BE /* Build configuration list for PBXProject "Hulk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEC473121C9C646600A952BE;
+			productRefGroup = DEC4731C1C9C646600A952BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEC4731A1C9C646600A952BE /* Hulk */,
+				DEC4732E1C9C646600A952BE /* HulkTests */,
+				DEC473391C9C646600A952BE /* HulkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEC473191C9C646600A952BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC473291C9C646600A952BE /* LaunchScreen.storyboard in Resources */,
+				DEC473261C9C646600A952BE /* Assets.xcassets in Resources */,
+				DEC473241C9C646600A952BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC4732D1C9C646600A952BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC473381C9C646600A952BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEC473171C9C646600A952BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC473211C9C646600A952BE /* ViewController.swift in Sources */,
+				DEC4731F1C9C646600A952BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC4732B1C9C646600A952BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC473341C9C646600A952BE /* HulkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC473361C9C646600A952BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC4733F1C9C646600A952BE /* HulkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEC473311C9C646600A952BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEC4731A1C9C646600A952BE /* Hulk */;
+			targetProxy = DEC473301C9C646600A952BE /* PBXContainerItemProxy */;
+		};
+		DEC4733C1C9C646600A952BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEC4731A1C9C646600A952BE /* Hulk */;
+			targetProxy = DEC4733B1C9C646600A952BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEC473221C9C646600A952BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEC473231C9C646600A952BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEC473271C9C646600A952BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEC473281C9C646600A952BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEC473411C9C646600A952BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEC473421C9C646600A952BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEC473441C9C646600A952BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Hulk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Divit-Mittal.Hulk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		DEC473451C9C646600A952BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Hulk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Divit-Mittal.Hulk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		DEC473471C9C646600A952BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HulkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Divit-Mittal.HulkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hulk.app/Hulk";
+			};
+			name = Debug;
+		};
+		DEC473481C9C646600A952BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HulkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Divit-Mittal.HulkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hulk.app/Hulk";
+			};
+			name = Release;
+		};
+		DEC4734A1C9C646600A952BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HulkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Divit-Mittal.HulkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Hulk;
+			};
+			name = Debug;
+		};
+		DEC4734B1C9C646600A952BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HulkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Divit-Mittal.HulkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Hulk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEC473161C9C646600A952BE /* Build configuration list for PBXProject "Hulk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC473411C9C646600A952BE /* Debug */,
+				DEC473421C9C646600A952BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC473431C9C646600A952BE /* Build configuration list for PBXNativeTarget "Hulk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC473441C9C646600A952BE /* Debug */,
+				DEC473451C9C646600A952BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC473461C9C646600A952BE /* Build configuration list for PBXNativeTarget "HulkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC473471C9C646600A952BE /* Debug */,
+				DEC473481C9C646600A952BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC473491C9C646600A952BE /* Build configuration list for PBXNativeTarget "HulkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC4734A1C9C646600A952BE /* Debug */,
+				DEC4734B1C9C646600A952BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEC473131C9C646600A952BE /* Project object */;
+}
